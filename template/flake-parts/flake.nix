@@ -10,7 +10,7 @@
 
   inputs.flake-parts.url = "github:hercules-ci/flake-parts";
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-  inputs.jupyenv.url = "github:tweag/jupyenv";
+  inputs.jupyenv.url = "github:cig0/jupyenv-tweag";
 
   outputs = inputs @ {flake-parts, ...}:
     flake-parts.lib.mkFlake {inherit inputs;} {
